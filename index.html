@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Etanol x Gasolina</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>
+                Calculadora Álcool x Gasolina
+            </h1>
+        </header>
+        <div class="artigo">
+        <h2>
+            Porque calcular a difefença entre Etanol e Gasolina?
+        </h2>
+        <article>
+            <p>
+                Os carros equipados com motores Flex estão no mercado há quase 20 anos, mas mesmo assim, ainda são cercados de mitos. Um deles é quando usar gasolina ou álcool levando em conta o preço dos dois combustíveis.
+            </p>
+            <p>
+                No inicio, foi estabelecido que se o preço do <strong><a href="https://precos.petrobras.com.br/" target="_blank">Etanol</a></strong> fosse até 70% em relação ao preço da <strong><a href="https://precos.petrobras.com.br/" target="_blank">Gasolina</a></strong>, seria mais vantajoso abastecer o veiculo com Etanol. Mas, pela evolução técnica dos motores e do próprio etanol, hoje, essa proporção está diferente e pode chegar a até <strong>75%</strong>.
+            </p>
+            <p>
+                Além disso, tal percentual também varia, principalmente com o perfil de direção do motorista e a tecnologia usada no veículo.
+            </p>
+            </article>
+        </div>
+        <div class="pag">
+            <div class="box1">
+                <h3>Qual a melhor opção?</h3>
+        
+                <picture>
+                    <img src="imagens/neutro.png" alt="Calculadora EtanolxGasolina" id="status">
+                </picture>
+                <div id="msg"></div>
+                <form name="frmFlex">
+                        <label for=txtEtanol>Etanol (preço por litro)</label>
+                        <input type="text" value="" maxlength="4" placeholder="Etanol" size="8" name="txtEtanol">
+                        <label for=txtEtanol>Gasolina (preço por litro)</label>
+                        <input type="text" value="" maxlength="4"  placeholder="Gasolina" size="8" name="txtGasolina">
+                        <button type="button"  value="Vantagem" onclick="calcular()">Calcular</button>
+                        <button type="reset" value="Limpar" onclick="resetar()">Limpar</button>
+                </form>
+            </div>
+            </div>
+        <br><p>
+            <strong>Assista o video para entender de maneira mais pratica o novo calculo a ser considerado.</strong>
+        </p>
+        
+        <div class="boxvideo">
+            <iframe  src="https://www.youtube.com/embed/Bzdy_JLXS5A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="calcflex.js"></script>
+    
+</body>
+</html>
