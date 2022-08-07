@@ -14,18 +14,24 @@ function calcular(){
  if(etanol < 0.74 * gasolina)
  {
 /*verdadeiro*/
-comb ='ETANOl'
+comb ='Etanol'
 document.getElementById("status").src="imagens/etanol.png"
+document.getElementById("msg").style.color = "green";
  }
 
  else{
 /*falso*/ document.getElementById("status").src="imagens/gasolina.png"
-comb ='GASOLINA'
+comb ='Gasolina'
+document.getElementById("msg").style.color = "red";
  }
 
-msg.innerHTML= `É MAIS VANTAJOSO USAR: <strong><u>${comb}</u></strong>.`
+msg.innerHTML= `É mais vantajoso usar: <strong><u>${comb}</u></strong>.`
+document.getElementById("msg").style.textAlign = "center";
+document.getElementById("msg").style.fontFamily = "arial black";
+document.getElementById("msg").style.fontWeight = "bolder";
 }
 function resetar() {
     document.getElementById("status").src="imagens/neutro.png"
     msg.innerHTML=``
+    
 }
