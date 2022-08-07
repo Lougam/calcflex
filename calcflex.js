@@ -27,4 +27,5 @@ msg.innerHTML= `É MAIS VANTAJOSO USAR: <strong><u>${comb}</u></strong>.`
 }
 function resetar() {
     document.getElementById("status").src="imagens/neutro.png"
+    msg.innerHTML=``
 }
