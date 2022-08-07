@@ -15,11 +15,11 @@ function calcular(){
  {
 /*verdadeiro*/
 comb ='ETANOl'
-document.getElementById("status").src="etanol.png"
+document.getElementById("status").src="imagens/etanol.png"
  }
 
  else{
-/*falso*/ document.getElementById("status").src="gasolina.png"
+/*falso*/ document.getElementById("status").src="imagens/gasolina.png"
 comb ='GASOLINA'
  }
 
@@ -29,6 +29,6 @@ msg.style.fontStyle = 'bold'
 msg.innerHTML= `É MAIS VANTAJOSO USAR: <strong><u>${comb}</u></strong>.`
 }
 function resetar() {
-    document.getElementById("status").src="neutro.png"
+    document.getElementById("status").src="imagens/neutro.png"
 }
 
