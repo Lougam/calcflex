@@ -31,7 +31,7 @@ main article a{
 }
 body article a:hover{
     text-decoration: underline;
-    color: red;
+    color: green;
 }
 
 header {
@@ -45,31 +45,31 @@ header {
 .artigo h2{
     text-align: center;
 }
-.box1 h3{
+.box h3{
     font: bold;
     text-align: center;
 }
-.pag{
+.container{
     display: flex;
     margin: auto;
     max-width: 800px;
     min-width: 320px;
 }
-.box1{
+.box{
     display: initial;
     margin: auto;
     align-items: center;
     width: 100%;
 
 }
-.box1 picture img{
+.box picture img{
     margin: auto;
     display: block;
     width: 100%;
     min-width: 320px;
     max-width: 600px;
 }
-.box1 form{
+.box form{
     
     display: block;
 }
@@ -83,19 +83,19 @@ header {
   
     
 }
-.pag form input{
+.container form input{
     padding: 2px 55px;
     margin: 5px;
     display: block;
     border-radius: 20px;
     box-shadow: 5px 2px 10px rgb(0, 0, 0);
 }
-.pag form label{
+.container form label{
     display: block;
     margin: 0px;
     font-weight: bold;
 }
-.pag form button{
+.container form button{
     font:normal normal 12pt arial white;
     color: aliceblue;
     padding: 5px 30px;
