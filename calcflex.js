@@ -23,12 +23,8 @@ document.getElementById("status").src="imagens/etanol.png"
 comb ='GASOLINA'
  }
 
-msg.style.textAlign = 'center'
-msg.style.fontFamily = 'arial'
-msg.style.fontStyle = 'bold'
 msg.innerHTML= `É MAIS VANTAJOSO USAR: <strong><u>${comb}</u></strong>.`
 }
 function resetar() {
     document.getElementById("status").src="imagens/neutro.png"
 }
-
